@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>服务宗旨</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/company.css">
+    <link rel="stylesheet" href="css/purpose.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/header&footer.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <!-- 头部开始 -->
+        <script src="js/header.js"></script>
+        <!-- 头部结束 -->
+        <!-- banner开始 -->
+        <div class="banner" style="background: url(images/purpose_02.jpg) no-repeat top center">
+
+        </div>
+        <!-- banner结束 -->
+        <!-- 服务宗旨开始 -->
+        <div class="content">
+            <div class="container">
+               <div class="purpose_box1">
+                    <div class="purpose_box1_left">
+                        <p>河北邦源节能科技有限公司自成立初，
+                            就把诚信作为企业文化理念的核心。
+                            以“诚”作魂，以“信”为准，做到诚信于社会，
+                            诚信于客户，诚信于员工。
+                            在诚信做企业的宗旨引导下，用璀璨灯光点亮城市夜空。</p>
+                        <p>以一流的产品、一流的服务、
+                            优惠的价格为客户提供高质量、
+                            高性价比，高科技产品。
+                            公司始终重视产品的服务，
+                            将售后服务纳入工作体系，
+                            积极为客户解决后顾之忧。
+                        </p>
+                        <p>公司始终秉承“为国家创造利税，为企业创造利润，为伙伴创造利益，为员工创造机会，
+                            为客户创造价值”的历史使命，坚持“创新、团结、服务、共赢”，努力为客户创造出更加舒适的光学环境。</p>
+                    </div>
+                    <div class="purpose_box1_right">
+                        <img src="images/purpose_05.jpg" alt="">
+                    </div>
+               </div>
+               <div class="purpose_box1 purpose_box2">
+                    <div class="purpose_box2_right">
+                            <img src="images/purpose_pic_03.jpg" alt="">
+                        </div>
+                    <div class="purpose_box2_left">
+                        <p>以“诚”作魂，以“信”为准</p>
+                        <p>以“质量”作根，以“服务”为本</p>
+                        <p>以“创新”作媒，以“共赢”为任</p>
+                    </div>
+                   
+               </div>
+            </div>
+        </div>
+        <script>
+            $(function(){
+                $(".purpose_box1_left").addClass("animated slideInUp")
+            setTimeout(() => {
+                $(".purpose_box1_right").addClass("animated slideInUp")
+            }, 500);
+    $(window).on('scroll',function(){
+        var b=$(window).scrollTop();//获取滚动的高度
+        var a=$(".purpose_box2").offset().top;//获取元素距离顶部的距离
+        var c=a-400;
+        if(c<b){
+            $(".purpose_box2_left").addClass("animated slideInRight")
+            setTimeout(() => {
+                $(".purpose_box2_right").addClass("animated slideInLeft")
+            }, 100);
+        }
+    });
+            })
+        </script>
+        <!-- 服务宗旨结束 -->
+        <!-- 底部开始 -->
+        <script src="js/footer.js"></script>
+        <!-- 底部结束 -->
+    </div>
+</body>
+
+</html>

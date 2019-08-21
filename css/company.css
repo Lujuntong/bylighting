@@ -1,0 +1,100 @@
+/* banner开始 */
+.banner{
+    width: 100%;
+    height: 404px;
+}
+/* banner结束 */
+/* 公司概况开始 */
+.content{
+    width: 100%;
+    margin-top: 60px;
+}
+.box1{
+    width: 100%;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 10px 10px #aeaeae;
+    margin-bottom: 58px;
+    transition: 0.5s;
+}
+.box1:hover{
+    transform: translateY(10px);
+    transition: 0.5s;
+}
+.box1_pic{
+    width: 40%;
+}
+.box1_pic img{
+    width: 100%;
+}
+.box1_txt{
+    width: 58%;
+}
+.box1_txt_content{
+    width: 80%;
+    margin: 50px auto 0;
+}
+.box1_txt_title{
+    color: #555555;
+    font-size: 26px;
+    margin-bottom: 35px;
+}
+.box1_txt_p{
+    font-size: 16px;
+    color: #575757;
+    line-height: 30px;
+}
+.box1_txt_p p{
+    text-indent: 2em;
+}
+.box2_p{
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+.box2_p ul li{
+    font-size: 16px;
+    color: #575757;
+    line-height: 30px;
+}
+.box2_pic{
+    width: 100%;
+    margin-bottom: 58px;
+    overflow: hidden;
+}
+.box2_pic img{
+    width: 100%;
+    transition: 0.5s;
+}
+.box2_pic:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+/* 公司概况结束 */
+/* 企业资质开始 */
+.intelligence{
+    width: 915px;
+    margin: 0 auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.intelligence li{
+    width: 39%;
+    margin-bottom: 80px;
+    position: relative;
+    padding-bottom: 65px;
+}
+.intelligence_btn{
+    width: 99%;
+    height: 65px;
+    background: #737474;
+    color: #fff;
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    font-size: 18px;
+    text-align: center;
+    line-height: 65px;
+}
+/* 企业资质结束 */

@@ -1,0 +1,157 @@
+/* 头部开始 */
+header{
+   width: 100%;
+   height: 90px;
+   background: #fff;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header_content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.log{
+    width: 11.6%;
+    margin-top: 22px;
+}
+.log img{
+    width: 100%;
+}
+nav{
+    width: 65%;
+    margin-top: 33px;
+    position: relative;
+}
+nav>ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+nav>ul>li{
+    position:relative;
+    display:block;
+    outline:none;
+    cursor:pointer;
+    text-align:center;
+}
+.nav_hidden{
+    width: 100%;
+    height: 0;
+    padding: 0 20px;
+    background: #e3e2e3;
+    position: absolute;
+    top: 57px;
+    left: -17px;
+    border-top: 0px solid transparent;
+    z-index: 9;
+    overflow: hidden;
+}
+.nav_hidden>ul>li>a{
+    color: #5b595b;
+    font-size: 16px;
+    line-height: 50px;
+}
+nav>ul>li .nav_top{
+    border-top: 3px solid #097052;
+}
+nav>ul>li>a{
+    color: #5b595b;
+    font-size: 16px;
+    line-height: 58px;
+}
+nav>ul>li .nav_active{
+    color: #097052;
+    font-weight: 600 !important;
+}
+.header_icon{
+    width: 5px;
+    height: 5px;
+    display: block;
+    margin: 27px auto 0;
+    background: url(../images/header_circle_03.png) no-repeat;
+}
+.header_tel{
+    width: 13.3%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.header_tel_num{
+    color: #097052;
+    font-weight: 600;
+}
+.header_tel_pic{
+    margin-top: 2px;
+    margin-right: 10px;
+}
+/* 头部结束 */
+/* 底部开始 */
+footer{
+    width: 100%;
+    background: #097052;
+    color: #fff;
+    overflow: hidden;
+    font-size: 12px;
+}
+.inner{
+    width: 1100px;
+    margin: 0 auto;
+}
+.footer_nav{
+    width: 55%;
+    margin-left: 70px;
+    margin-top: 17px;
+    margin-bottom: 0px;
+}
+.footer_nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_nav ul li a{
+    color: #fff;
+    line-height: 32px;
+    font-size: 15px;
+}
+.header_icon1{
+    font-style: initial;
+    font-size: 20px;
+    line-height: 32px;
+}
+.footer_content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.footer_content_left{
+    margin-top: 20px;
+}
+.footer_content_left ul li{
+    margin-top: 10px;
+}
+.footer_content_right{
+    width: 120px;
+    text-align: center;
+}
+.footer_content_right p{
+    margin-top: 10px;
+}
+.footer_bottom{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.beian_num{
+    margin: 0 20px;
+}
+.yd a{
+    display: inline;
+    color: #fff;
+}
+/* 底部结束 */

@@ -1,0 +1,230 @@
+/* 营业范围开始 */
+.limits_title ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #097052;
+    margin-bottom: 70px;    
+}
+.limits_title ul li{
+    width: 24%;
+    height: 50px;
+    color: #fff;
+    background: #c7c5c5;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+.limits_title ul .limits_active{
+    background: #097052;
+}
+.limits_box1{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.limits_box1_left{
+    width: 40%;
+    /* float: left; */
+}
+.limits_box1_left img{
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+.limits_box1_right{
+    width: 50%;
+    /* float: right; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 50px;
+}
+.limits_box1_title{
+    font-size: 30px;
+    color: #5e5e5e;
+    margin-bottom: 20px;
+}
+.limits_box1_txt p{
+    font-size: 16px;
+    color: #9b9b9b;
+    line-height: 30px;
+}
+.limits_box1_num i{
+    width: 92px;
+    height: 92px;
+    display: block;
+    background: url(../images/limits_num_03.png) no-repeat;
+}
+.limits_box1_txt a{
+    margin-top: 40px;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #5e5e5e;
+    font-size: 16px;
+    color: #5e5e5e;
+    text-align: center;
+    line-height: 40px;
+    background: #fff;
+}
+.limits_line{
+    width: 125%;
+    height: 2px;
+    background: #097052;
+    position: absolute;
+    top: 332px;
+    right: 0;
+    z-index: 9;
+}
+.limits_line1{
+    position: absolute;
+    top: 332px;
+    left: 0;
+}
+.limits_box1_num2 i{
+    width: 112px;
+    height: 92px;
+    display: block;
+    background: url(../images/limits_num_07.png) no-repeat;
+}
+.limits_box1_num3 i{
+    width: 112px;
+    height: 92px;
+    display: block;
+    background: url(../images/limits_num_11.png) no-repeat;
+}
+.limits_box1_num4 i{
+    width: 112px;
+    height: 92px;
+    display: block;
+    background: url(../images/limits_num_13.png) no-repeat;
+}
+/* 营业范围结束 */
+/* 分页开始 */
+.pagination p{
+    margin:0;
+    cursor:pointer;
+}
+.pagination{
+    width: 398px;
+    height:40px;
+    padding:6px 0px;
+    margin: 20px auto 40px;
+}
+.pagination a{
+    display:block;
+    float:left;
+    margin-right:5px;
+    padding:5px 14px;
+    border:1px #cccccc solid;
+    background:#fff;
+    text-decoration:none;
+    color:#808080;
+    font-size:14px;
+    line-height:28px;
+   font-weight: bolder;
+   margin-top: 5px;
+}
+.pagination a:hover{
+    color:#ffffff;
+    background: #097052;
+}
+.pagination a.cur{
+    border:1px solid #097052;
+    background:#097052;
+    font-size: 14px;
+    color:#fff;
+}
+.pagination p{
+    float:left;
+    padding:5px 9px;
+    font-size:14px;
+    line-height:28px;
+    color:#bbb;
+    border:1px #ccc solid;
+    background:#fcfcfc;
+    margin-right:8px;
+    margin-top: 5px;
+
+}
+.pagination p.pageRemark{
+    border-style:none;
+    background:none;
+    margin-right:0px;
+    padding:4px 0px;
+    color:#666;
+}
+.pagination p.pageRemark b{
+    color:red;
+}
+.pagination p.pageEllipsis{
+    border-style:none;
+    background:none;
+    padding:4px 0px;
+    color:#808080;
+}
+.dates li {font-size: 14px;margin:20px 0}
+.dates li span{float:right}
+/* 分页结束 */
+/* 营业范围详情开始 */
+.limits_xq_title{
+    width: 100%;
+    border-bottom: 1px solid #c7c2c8;
+    text-align: center;
+}
+.limits_xq_title h1{
+    font-size: 24px;
+    color: #636262;
+}
+.limits_xq_title p{
+    color: #919091;
+    margin: 10px auto 20px;
+    font-size: 14px;
+}
+.limits_xq_txt{
+    padding: 20px 26px 0;
+}
+.limits_xq_txt p{
+    color: #434343;
+    text-indent: 2em;
+    line-height: 30px;
+}
+.limits_xq_txt img{
+    width: 613px;
+    display: block;
+    margin: 20px auto;
+}
+/* 营业范围详情结束 */
+/* 营业范围详情分页开始 */
+.limits_xq_page{
+    width: 100%;
+    height: 60px;
+    background: #efeded;
+    margin: 60px auto 60px;
+}
+.limits_xq_page ul{
+    display: flex;
+    justify-content: space-between;
+}
+.limits_xq_page ul li{
+    width: 50%;
+    height: 60px;
+}
+.limits_xq_page ul .limits_xq_page_active{
+    background: #097052;
+}
+.limits_xq_page ul li a{
+    display: flex;
+    justify-content: space-between;
+    line-height: 60px;
+    color: #6c6b6c;
+    font-size: 16px;
+}
+.limits_xq_page ul li a i{
+    margin-top: 22px;
+    margin-left: 20px;
+    /* color: #fff; */
+}
+.limits_xq_page ul li a p{
+    margin-right: 20px;
+}
+/* 营业范围详情分页结束 */

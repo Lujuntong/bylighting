@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>营业范围</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/company.css">
+    <link rel="stylesheet" href="css/limits.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/header&footer.css">
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <!-- 头部开始 -->
+        <script src="js/header.js"></script>
+        <!-- 头部结束 -->
+        <!-- banner开始 -->
+        <div class="banner" style="background: url(images/limits_banner_02.jpg) no-repeat top center">
+
+        </div>
+        <!-- banner结束 -->
+        <!-- 营业范围开始 -->
+        <div class="content">
+            <div class="container">
+                <div class="limits_title">
+                    <ul>
+                        <li class="limits_active">景观照明</li>
+                        <li>建筑照明</li>
+                        <li>智慧照明</li>
+                        <li>室内照明</li>
+                    </ul>
+                </div>
+                <div class="limits_box">
+                    <div class="limits_box1 clearfix">
+                        <div class="limits_box1_left">
+                            <img src="images/limite_pic_03.jpg" alt="">
+                        </div>
+                        <div class="limits_box1_right">
+                            <div class="limits_box1_txt">
+                                <div class="limits_box1_title">古亭塔顶景观照明</div>
+                                <p>塔的特点是比较高大，往往是一个地区的标志性的构筑物。塔的
+                                    造型极为丰富，一般与所在地的民族文化、历史背景有某种程度
+                                    的呼应。关于塔的景观照明...</p>
+                                <a href="limits_xq.html">进入了解></a>
+                            </div>
+                            <div class="limits_box1_num">
+                                <i></i>
+                            </div>
+                            <div class="limits_line"></div>
+                        </div>
+                    </div>
+                    <div class="limits_box1 clearfix">
+                        <div class="limits_box1_right">
+                            <div class="limits_box1_num limits_box1_num2">
+                                <i></i>
+                            </div>
+                            <div class="limits_box1_txt">
+                                <div class="limits_box1_title">公园花圃景观照明</div>
+                                <p>塔的特点是比较高大，往往是一个地区的标志性的构筑物。塔的
+                                    造型极为丰富，一般与所在地的民族文化、历史背景有某种程度
+                                    的呼应。关于塔的景观照明...</p>
+                                <a href="limits_xq.html">进入了解></a>
+                            </div>
+
+                            <div class="limits_line limits_line1"></div>
+                        </div>
+                        <div class="limits_box1_left">
+                            <img src="images/limits_pic_07.jpg" alt="">
+                        </div>
+
+                    </div>
+                    <div class="limits_box1 clearfix">
+                        <div class="limits_box1_left">
+                            <img src="images/limite_pic_03.jpg" alt="">
+                        </div>
+                        <div class="limits_box1_right">
+                            <div class="limits_box1_txt">
+                                <div class="limits_box1_title">水母景色景观照明</div>
+                                <p>塔的特点是比较高大，往往是一个地区的标志性的构筑物。塔的
+                                    造型极为丰富，一般与所在地的民族文化、历史背景有某种程度
+                                    的呼应。关于塔的景观照明...</p>
+                                <a href="limits_xq.html">进入了解></a>
+                            </div>
+                            <div class="limits_box1_num limits_box1_num3">
+                                <i></i>
+                            </div>
+                            <div class="limits_line"></div>
+                        </div>
+                    </div>
+                    <div class="limits_box1 clearfix">
+                        <div class="limits_box1_right">
+                            <div class="limits_box1_num limits_box1_num4">
+                                <i></i>
+                            </div>
+                            <div class="limits_box1_txt">
+                                <div class="limits_box1_title">公园灯牌景观照明</div>
+                                <p>塔的特点是比较高大，往往是一个地区的标志性的构筑物。塔的
+                                    造型极为丰富，一般与所在地的民族文化、历史背景有某种程度
+                                    的呼应。关于塔的景观照明...</p>
+                                <a href="limits_xq.html">进入了解></a>
+                            </div>
+
+                            <div class="limits_line limits_line1"></div>
+                        </div>
+                        <div class="limits_box1_left">
+                            <img src="images/limits_pic_07.jpg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 营业范围结束 -->
+        <script>
+            $(function () {
+                $(".limits_title ul li").hover(function () {
+                    $(this).css({ background: "#097052", color: "#fff" })
+                }, function () {
+                    $(".limits_title ul li").css({ background: "", color: "" })
+                })
+            })
+        </script>
+        <script>
+            $(".limits_box1_txt a").hover(function () {
+                $(this).css({ backgroundColor: "#097052", color: "#fff", border: "0" })
+                $(this).parent().siblings(".limits_line").animate({ width: "0" }, 600)
+            }, function () {
+                $(this).css({ backgroundColor: "#fff", color: "#5e5e5e", border: "1px solid #5e5e5e" })
+                $(".limits_box1_txt a").parent().siblings(".limits_line").animate({ width: "125%" }, 600)
+            })
+            $(function () {
+                $(".limits_box1_txt").hover(function () {
+                    $(this).find(".limits_box1_title").css({ color: "#097052" })
+                    $(this).find("p").css({ color: "#565656" })
+                }, function () {
+                    $(".limits_box1_txt").find(".limits_box1_title").css({ color: "" })
+                    $(".limits_box1_txt").find("p").css({ color: "" })
+                })
+                $(".limits_box1").hover(function(){
+                    $(this).find(".limits_box1_left img").css({transform: "scale(1.0)"})
+                },function(){
+                    $(".limits_box1").find(".limits_box1_left img").css({transform: "scale(0.9)"})
+                })
+            })
+        </script>
+        <!-- 分页开始 -->
+        <div class="pagination">
+            <p>首页</p>
+            <p>上一页</p>
+            <a href="" class="cur">1</a>
+            <a href="" title="第" 2"页">2</a>
+            <a href="" title="第" 3"页">3</a>
+            <a href='' title='下一页'>下一页</a>
+            <a href='' title='尾页'>尾页</a>
+        </div>
+        <!-- 分页结束 -->
+        <!-- 底部开始 -->
+        <script src="js/footer.js"></script>
+        <!-- 底部结束 -->
+    </div>
+</body>
+
+</html>

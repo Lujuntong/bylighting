@@ -1,0 +1,131 @@
+/* 新闻中心开始 */
+.news_box1{
+    width: 100%;
+    border-bottom: 1px solid #c7c2c8;
+    padding: 0px 0 35px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+.news_box1_pic{
+    width: 293px;
+    height: 202px;
+}
+.news_box1_pic img{
+    width: 100%;
+    height: 100%;
+}
+.news_box1_txt{
+    width: 812px;
+    margin-right: 60px;
+}
+.news_box1_txt h1 a{
+    font-size: 20px;
+    font-weight: 500;
+    color: #444444;
+    margin-bottom: 10px;
+}
+.news_box1:hover h1 a{
+    color: #097052;
+    font-weight: 600;
+}
+.news_box1_txt time{
+    color: #828181;
+    display: block;
+    margin-bottom: 15px;
+}
+.news_box1_txt p{
+    color: #454445;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-height: 24px;
+}
+.news_box1_txt>a{
+    width: 94px;
+    height: 28px;
+    border: 1px solid #818080;
+    margin-top: 15px;
+    text-align: center;
+    line-height: 28px;
+    color: #858585;
+    font-size: 16px;
+}
+.news_box1_txt>a:hover{
+    border: 0;
+    background: #097052;
+    color: #fff;
+}
+.news_box1:hover .news_box1_a{
+    border: 0;
+    background: #097052;
+    color: #fff;
+}
+/* 新闻中心结束 */
+/* 分页开始 */
+.pagination p{
+    margin:0;
+    cursor:pointer;
+}
+.pagination{
+    width: 395px;
+    height:40px;
+    padding:6px 0px;
+    margin: 20px auto 40px;
+}
+.pagination a{
+    display:block;
+    float:left;
+    margin-right:5px;
+    padding:5px 14px;
+    border:1px #cccccc solid;
+    background:#fff;
+    text-decoration:none;
+    color:#808080;
+    font-size:14px;
+    line-height:28px;
+   font-weight: bolder;
+   margin-top: 5px;
+}
+.pagination a:hover{
+    color:#ffffff;
+    background: #097052;
+}
+.pagination a.cur{
+    border:none;
+    background:#097052;
+    font-size: 14px;
+    color:#fff;
+}
+.pagination p{
+    float:left;
+    padding:5px 9px;
+    font-size:14px;
+    line-height:28px;
+    color:#bbb;
+    border:1px #ccc solid;
+    background:#fcfcfc;
+    margin-right:8px;
+    margin-top: 5px;
+
+}
+.pagination p.pageRemark{
+    border-style:none;
+    background:none;
+    margin-right:0px;
+    padding:4px 0px;
+    color:#666;
+}
+.pagination p.pageRemark b{
+    color:red;
+}
+.pagination p.pageEllipsis{
+    border-style:none;
+    background:none;
+    padding:4px 0px;
+    color:#808080;
+}
+.dates li {font-size: 14px;margin:20px 0}
+.dates li span{float:right}
+/* 分页结束 */

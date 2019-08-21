@@ -1,0 +1,102 @@
+/* banner开始 */
+.banner{
+    width: 100%;
+    height: 612px;
+    position: relative;
+}
+.swiper-container1 {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+.swiper-pagination-bullet{
+    width: 50px;
+    height: 8px;
+    border: 2px solid #fff;
+    border-radius: 0%;
+    opacity: 1;
+    background: transparent;
+}
+.swiper-pagination-white .swiper-pagination-bullet-active {
+    background: #097052 !important;
+}
+.swiper-pagination-bullet{
+    width: 19px !important;
+    height: 19px !important;
+    border: 0px; 
+    background: #fff !important;
+    opacity: 1 !important;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: 33px !important;
+}
+/* banner结束 */
+/* 范围应用开始 */
+.application{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.application_title{
+    text-align: center;
+}
+.application_title h1{
+    font-size: 24px;
+    color: #097052;
+    font-weight: 500;
+}
+.application_title p{
+    font-size: 16px;
+}
+.application_box{
+    width: 100%;
+    margin-top: 50px;
+}
+.application_box ul{
+    display: flex;
+    justify-content: space-between;
+}
+.application_box ul li:nth-child(2n+1){
+    width: 180px;
+    text-align: center;
+}
+.box_title{
+    font-size: 18px;
+    color: #097052;
+    border-bottom: 3px solid #097052;
+    display: inline;
+}
+.box_text{
+    height: 215px;
+    margin: 20px auto 10px;
+    line-height: 24px;
+}
+.box_pic{
+    width: 180px;
+    height: 180px;
+    border: 4px solid #097052;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 180px;
+    transition: 1s;
+}
+.box_pic img{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    transition: 1s;
+}
+.box_pic:hover img{
+    transform: rotateY(180deg);
+}
+.line{
+    width: 2px;
+    height: 315px;
+    background: #acaaaa;
+    display: block;
+    margin-top: 50px;
+}
+/* 范围应用结束 */
